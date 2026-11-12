@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 2, "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "functions": {"api/archive.js": {"includeFiles": "vault/**", "maxDuration": 10}},
@@ -11,3 +11,4 @@
     {"key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"}
   ]}]
 }
+
